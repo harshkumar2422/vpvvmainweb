@@ -1,0 +1,10 @@
+.agricultureimg {
+  height: 350px;
+  border-radius: 50px;
+  margin-left: 60px;
+}
+.agri-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

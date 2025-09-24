@@ -1,0 +1,195 @@
+.hero-section {
+  background: #000000;
+  background: linear-gradient(
+    1deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(5, 30, 63, 1) 61%,
+    rgba(13, 61, 120, 1) 100%
+  );
+  color: white;
+  text-align: center;
+  padding: 3rem 10.3rem;
+}
+
+.hero-content h1 {
+  font-size: 4.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 2rem;
+  /* margin-bottom: 2rem; */
+  color: #c9d1d9;
+}
+
+/* 2 */
+/* Container for the entire section */
+.logo-section {
+  background-color: #000;
+}
+
+.logo-container {
+  padding: 1.9rem 0px;
+  margin: 0px 50px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  overflow-x: hidden;
+}
+
+.logo-container .marqueescroll img {
+  margin: 0px 50px;
+  width: auto;
+  height: 40px;
+}
+
+/* 3 */
+/* Main container */
+.fixes-section {
+  background: linear-gradient(135deg, #0d1117, #1a1e29);
+  color: white;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex container for text and card */
+.content-container {
+  display: flex;
+  /* max-width: 1200px; */
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Left column: Text content */
+.text-content {
+  flex: 1;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  /* padding-right: 200px; */
+}
+
+.text-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #9aa0a6;
+}
+.text-content p span {
+  color: #fff;
+}
+.link-box {
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  padding: 5px 0px;
+  max-width: fit-content;
+  width: 0px;
+  text-wrap: nowrap;
+  transition: all 0.2s linear;
+}
+.link-box:hover {
+  width: 100%;
+}
+.explore-link {
+  font-size: 1rem;
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+/* Right column: Card content */
+.card-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  /* background: #1a1e29; */
+  /* padding: 1.5rem; */
+  border-radius: 10px;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); */
+  border: transparent;
+  width: 100%;
+  background: transparent;
+  max-width: 450px;
+}
+
+/* skndks */
+.accordion {
+  width: 100%;
+}
+
+.stick {
+  border: 1px solid red;
+  width: 50px;
+  cursor: pointer;
+  background-color: rgb(238, 0, 255);
+  text-align: center;
+  height: 50px;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+.accordion-item {
+  background: transparent;
+  border: none;
+  /* border-bottom: 1px solid #fff; */
+}
+.accordion-button {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  background: transparent !important;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #fff;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+.accordion-body {
+  color: #c9d1d9;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 2rem;
+  background: transparent !important;
+  padding: 10px 20px;
+  /* border-bottom: none; */
+}
+.accordion {
+  background: transparent;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+  color: #fff !important;
+}
+
+/* Ending SignUp  */
+
+.carousel-wrapper {
+  width: 100%;
+  max-height: 550px;
+  overflow: hidden;
+}
+
+.carousel-img {
+  height: 550px;
+  object-fit: cover;
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}

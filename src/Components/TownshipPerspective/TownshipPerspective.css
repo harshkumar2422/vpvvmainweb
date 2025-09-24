@@ -1,0 +1,22 @@
+.township-img{
+    /* border: 2px solid red; */
+    display: flex;
+    min-width: 100%;
+}
+.township-pmo-img{
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 100%;
+    margin: 0px 10px;
+
+}
+.township-pmo-img img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover !important; */
+}
+.township-ul li{
+    text-align: left !important;
+    line-height:2.5rem;
+    font-size: 18px;
+}

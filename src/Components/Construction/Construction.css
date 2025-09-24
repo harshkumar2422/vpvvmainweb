@@ -1,0 +1,40 @@
+.takeaways-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.takeaway-item h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.takeaway-item h4 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.takeaway-item p {
+  font-size: 0.95rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.takeaway-footer {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+.linecard{
+  text-align: left;
+  font-size:35px;
+  font-weight:750 ;
+}

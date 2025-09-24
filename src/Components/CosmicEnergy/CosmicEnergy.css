@@ -1,0 +1,9 @@
+.cosmic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cosmic-container img {
+  margin-right: 20px;
+  border-radius: 20px;
+}
