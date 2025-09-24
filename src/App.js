@@ -17,6 +17,7 @@ import CosmicEnergy from "./Components/CosmicEnergy/CosmicEnergy";
 import Aerospace from "./Components/Aerospace/Aerospace";
 import Agriculture from "./Components/Agriculture/Agriculture";
 import Construction from "./Components/Construction/Construction";
+import Interaction from "./Components/Intercation/Interaction";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/aerospace" element={<Aerospace />} />
           <Route path="/agriculture" element={<Agriculture />} />
           <Route path="/construction" element={<Construction />} />
+          <Route path="/interaction" element={<Interaction />} />
         </Routes>
       </BrowserRouter>
     </>
