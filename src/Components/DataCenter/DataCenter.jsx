@@ -6,12 +6,12 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 // ✅ Correct image imports
-import databaseimg1 from "../HomeImg/datacenterimg1.png";
 import databaseimg2 from "../HomeImg/datacenterimg2.jpg";
 import databaseimg3 from "../HomeImg/datacenterimg3.png";
+import databaseimg5 from "../HomeImg/datacenterimage5.jpg";
 
 // ✅ Correct array reference
-const images = [databaseimg1, databaseimg2, databaseimg3];
+const images = [databaseimg5, databaseimg2, databaseimg3];
 
 const DataCenter = () => {
   const [selectedImg, setSelectedImg] = useState(null);
